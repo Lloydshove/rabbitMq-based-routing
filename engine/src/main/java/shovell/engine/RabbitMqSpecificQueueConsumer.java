@@ -21,7 +21,7 @@ public class RabbitMqSpecificQueueConsumer {
     public void consume(String message){
         System.out.println("Message read from RabbitMq:" + helper.shortMessage(message));
 
-        String response = helper.calculateResponseMessage(message);
+        String response = helper.calculateResponseFromId(message);
 
         kafkaProducer.sendMessage(response);
 

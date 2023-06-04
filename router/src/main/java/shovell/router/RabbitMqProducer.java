@@ -8,7 +8,6 @@ import org.springframework.stereotype.Service;
 @Service
 public class RabbitMqProducer {
 
-
     @Autowired
     private RabbitTemplate rabbitTemplate;
     @Autowired RabbitMqConfig config;
