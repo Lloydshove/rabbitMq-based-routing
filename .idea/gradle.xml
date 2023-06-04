@@ -4,10 +4,26 @@
   <component name="GradleSettings">
     <option name="linkedExternalProjectsSettings">
       <GradleProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/engine/LatencyLogger" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/engine/LatencyLogger" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
         <option name="externalProjectPath" value="$PROJECT_DIR$/kafka-client" />
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$/kafka-client" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/latencyLogger" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/latencyLogger" />
           </set>
         </option>
       </GradleProjectSettings>

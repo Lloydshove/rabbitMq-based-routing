@@ -2,13 +2,16 @@
 <project version="4">
   <component name="ExternalStorageConfigurationManager" enabled="true" />
   <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/engine/LatencyLogger" />
     <file type="web" url="file://$PROJECT_DIR$/kafka-client" />
+    <file type="web" url="file://$PROJECT_DIR$/latencyLogger" />
   </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/router/pom.xml" />
         <option value="$PROJECT_DIR$/engine/pom.xml" />
+        <option value="$PROJECT_DIR$/latencyLogger/pom.xml" />
       </list>
     </option>
   </component>

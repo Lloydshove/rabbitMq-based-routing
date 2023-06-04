@@ -7,13 +7,18 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="engine" />
+        <module name="latencyLogger" />
         <module name="router" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="LatencyLogger" target="17" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="engine" options="-parameters" />
+      <module name="latencyLogger" options="-parameters" />
       <module name="router" options="-parameters" />
     </option>
   </component>
