@@ -8,17 +8,18 @@ import org.springframework.stereotype.Service;
 @Service
 public class RabbitMqProducer {
 
-    private String exchange = "statelessExchange";
-
-    private String routingKey = "statelessKey";
 
     @Autowired
     private RabbitTemplate rabbitTemplate;
-
+    @Autowired RabbitMqConfig config;
 
     public void sendMessage(String message){
+        System.out.print("Send to queue : " + config.exchange  + " . ");
+        rabbitTemplate.convertAndSend( config.exchange, config.routingKey, message);
+    }
 
-        rabbitTemplate.convertAndSend(
-                exchange, routingKey, message);
+    public void sendMessage(String message, String queueName){
+        System.out.print("Send with routing Key : " + queueName  + " . ");
+        rabbitTemplate.convertAndSend(queueName, message);
     }
 }

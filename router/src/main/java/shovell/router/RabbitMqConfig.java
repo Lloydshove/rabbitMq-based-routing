@@ -12,15 +12,14 @@ import org.springframework.context.annotation.Configuration;
 @Configuration
 public class RabbitMqConfig {
 
-    private String queue = "statelessQueue";
+    public final String queue = "statelessQueue";
 
-    private String exchange = "statelessExchange";
+    public final String exchange = "statelessQueue";
 
-    private String routingKey = "statelessKey";
+    public final String routingKey = "statelessQueue";
 
     @Bean
     Queue createQueue() {
-
         return new Queue(queue);
     }
 
@@ -31,14 +30,12 @@ public class RabbitMqConfig {
 
     @Bean
     Binding binding(Queue queue, TopicExchange exchange) {
-
         return BindingBuilder.bind(queue).
                 to(exchange).with(routingKey);
     }
 
     @Bean
-    SimpleMessageListenerContainer container(
-            ConnectionFactory connectionFactory) {
+    SimpleMessageListenerContainer container(ConnectionFactory connectionFactory) {
 
         SimpleMessageListenerContainer container =
                 new SimpleMessageListenerContainer();
