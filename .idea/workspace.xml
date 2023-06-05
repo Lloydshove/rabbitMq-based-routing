@@ -1,0 +1,411 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="49251493-b11b-44b0-a10a-d29745623a7b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/latencyLogger/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/latencyLogger/HELP.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/latencyLogger/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/latencyLogger/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/latencyLogger/pom.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$/engine/LatencyLogger">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/kafka-client">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/latencyLogger">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/stateful-events-client">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$/stateful-events-client">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$/kafka-client">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="HARD" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="a346342a-d44f-4cb6-b0be-00d0675ebe98" />
+        <option name="url" value="https://github.com/Lloydshove/rabbitMq-based-routing.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2QW8h42tF4PUNWkXFhUL3DxHovW" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "jdk.selected.JAVA_MODULE": "17",
+    "last_opened_file_path": "/Users/lloydshove/IdeaProjects/rabbitMq-based-routing/latencyLogger/src/main/java/shovell/latencylogger",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.4275862",
+    "settings.editor.selected.configurable": "MavenSettings",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/latencyLogger/src/main/java/shovell/latencylogger" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/kafka-client/src/main/java/shovell/invoker/auth" />
+      <recent name="$PROJECT_DIR$/kafka-client/src/main/java/shovell/invoker" />
+      <recent name="$PROJECT_DIR$/kafka-client/src/main/java/shovell/model" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/kafka-client/src/main/java/shovell" />
+      <recent name="$PROJECT_DIR$/kafka-client/src/main/java/shovell/api" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="shovell.latencylogger" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="shovell.engine" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.EngineApplication">
+    <configuration name="kafka-client [bootRun]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/kafka-client" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="bootRun" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>false</ForceTestExec>
+      <method v="2" />
+    </configuration>
+    <configuration name="kafka-client [buildDependents]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/kafka-client" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="buildDependents" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>false</ForceTestExec>
+      <method v="2" />
+    </configuration>
+    <configuration name="kafka-client [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/kafka-client" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="build" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>false</ForceTestExec>
+      <method v="2" />
+    </configuration>
+    <configuration name="stateful-events-client [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/stateful-events-client" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="build" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>false</ForceTestExec>
+      <method v="2" />
+    </configuration>
+    <configuration name="EngineApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" singleton="false" nameIsGenerated="true">
+      <module name="engine" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="shovell.engine.EngineApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="KafkaClientApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="kafka-client.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="shovell.kafkaclient.KafkaClientApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LatencyLoggerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="latencyLogger" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="shovell.latencylogger.LatencyLoggerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RouterApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="router" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="shovell.router.RouterApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Gradle.kafka-client [bootRun]" />
+      <item itemvalue="Gradle.kafka-client [buildDependents]" />
+      <item itemvalue="Gradle.kafka-client [build]" />
+      <item itemvalue="Gradle.stateful-events-client [build]" />
+      <item itemvalue="Maven.router [spring-boot:run]" />
+      <item itemvalue="Maven.latencyLogger [spring-boot:run]" />
+      <item itemvalue="Maven.engine [spring-boot:run]" />
+      <item itemvalue="Spring Boot.EngineApplication" />
+      <item itemvalue="Spring Boot.LatencyLoggerApplication" />
+      <item itemvalue="Spring Boot.RouterApplication" />
+      <item itemvalue="Spring Boot.KafkaClientApplication" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Maven.engine [spring-boot:run]" />
+        <item itemvalue="Maven.latencyLogger [spring-boot:run]" />
+        <item itemvalue="Maven.router [spring-boot:run]" />
+        <item itemvalue="Gradle.kafka-client [bootRun]" />
+        <item itemvalue="Gradle.kafka-client [build]" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="49251493-b11b-44b0-a10a-d29745623a7b" name="Changes" comment="" />
+      <created>1685458092967</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1685458092967</updated>
+      <workItem from="1685846946642" duration="32239000" />
+    </task>
+    <task id="LOCAL-00001" summary="First commit with Kafka and RabbitMQ Running in Docker">
+      <created>1685691714054</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1685691714054</updated>
+    </task>
+    <task id="LOCAL-00002" summary="checking videos shareable at UBS">
+      <created>1685797222964</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1685797222964</updated>
+    </task>
+    <task id="LOCAL-00003" summary="checking videos shareable">
+      <created>1685797288925</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1685797288925</updated>
+    </task>
+    <task id="LOCAL-00004" summary="end to end connected.  Kafka Rabbit Kafka">
+      <created>1685873626724</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1685873626724</updated>
+    </task>
+    <task id="LOCAL-00005" summary="running multiple engines with queue names, delays, calculating fibonnaci, temp queues">
+      <created>1685895028573</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1685895028573</updated>
+    </task>
+    <task id="LOCAL-00006" summary="running multiple engines with queue names, delays, calculating fibonnaci, temp queues">
+      <created>1685901563078</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1685901563078</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Cache Payloads in the engines">
+      <created>1685902789381</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1685902789381</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="First commit with Kafka and RabbitMQ Running in Docker" />
+    <MESSAGE value="checking videos shareable at UBS" />
+    <MESSAGE value="checking videos shareable" />
+    <MESSAGE value="end to end connected.  Kafka Rabbit Kafka" />
+    <MESSAGE value="running multiple engines with queue names, delays, calculating fibonnaci, temp queues" />
+    <MESSAGE value="Cache Payloads in the engines" />
+    <option name="LAST_COMMIT_MESSAGE" value="Cache Payloads in the engines" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/router/src/main/java/shovell/router/KafkaConsumerConfig.java</url>
+          <line>49</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/router/src/main/java/shovell/router/KafkaConsumerConfig.java</url>
+          <line>42</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/router/src/main/java/shovell/router/KafkaConsumerConfig.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/router/src/main/java/shovell/router/KafkaConsumer.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/router/src/main/java/shovell/router/KafkaConsumer.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/latencyLogger/src/main/java/shovell/latencylogger/KafkaConsumer.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/latencyLogger/src/main/java/shovell/latencylogger/KafkaConsumer.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/engine/src/main/java/shovell/engine/RabbitMqGeneralQueueConsumer.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/router/src/main/java/shovell/router/RabbitMqProducer.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
