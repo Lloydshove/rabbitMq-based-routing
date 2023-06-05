@@ -5,11 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="49251493-b11b-44b0-a10a-d29745623a7b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/latencyLogger/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/latencyLogger/HELP.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/latencyLogger/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/latencyLogger/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/latencyLogger/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/latencyLogger/src/main/java/shovell/latencylogger/LatencyLoggerApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/latencyLogger/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/latencyLogger/src/test/java/shovell/latencylogger/LatencyLoggerApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -280,7 +279,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1685458092967</updated>
-      <workItem from="1685846946642" duration="32239000" />
+      <workItem from="1685846946642" duration="32991000" />
     </task>
     <task id="LOCAL-00001" summary="First commit with Kafka and RabbitMQ Running in Docker">
       <created>1685691714054</created>
@@ -331,7 +330,21 @@
       <option name="project" value="LOCAL" />
       <updated>1685902789381</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="adding missing latency loader project files">
+      <created>1685932409319</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1685932409319</updated>
+    </task>
+    <task id="LOCAL-00009" summary="adding missing latency loader project files">
+      <created>1685932446663</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1685932446663</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -355,7 +368,8 @@
     <MESSAGE value="end to end connected.  Kafka Rabbit Kafka" />
     <MESSAGE value="running multiple engines with queue names, delays, calculating fibonnaci, temp queues" />
     <MESSAGE value="Cache Payloads in the engines" />
-    <option name="LAST_COMMIT_MESSAGE" value="Cache Payloads in the engines" />
+    <MESSAGE value="adding missing latency loader project files" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding missing latency loader project files" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
